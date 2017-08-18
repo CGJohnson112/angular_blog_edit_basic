@@ -1,0 +1,37 @@
+textarea {
+	width: 500px; height: 200px;
+	border: 1px solid black;
+	font-size: 20px;
+
+}
+
+#blog {
+	width: 500px; height: 200px;
+	background-color: pink;
+	padding: 15px;
+
+	
+
+}
+.textZero {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: purple;
+}
+
+.textOne {
+	font-family: 'Arial', sans-serif;
+	color: blue;
+	font-size: 10px;
+}
+
+.textTwo {
+	font-family: 'Poppins', sans-serif;
+	color: blue;
+	font-size: 15px;
+}
+
+.textThree {
+	font-family: 'Indie Flower', cursive;
+	color: red;
+	font-size: 20px;
+}

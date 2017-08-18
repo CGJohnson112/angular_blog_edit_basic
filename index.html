@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Angular Blog</title>
+	<script src="angular.min.js"></script>
+	<link href="style.css" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+</head>
+<body>
+<div id="container" ng-app="">
+<h1>Type your message here:</h1>
+	<textarea type="text" ng-model="text"></textarea>
+<hr>
+	<div id="blog" class="textZero">{{text}}</div>
+</div>
+<button id="textOne" name="textOne">Text One</button>
+<button id="textTwo" name="textTwo">Text Two</button>
+<button id="textThree" name="textThree">Text Three</button>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+
